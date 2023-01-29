@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - enemy
+  - Enemy
+  - Shop
+  - Skeleton
+  - Stage
+  - Confiner
+  - Shade
+  - BGM
+  - TrashCave
+  - Bat
+  - Zombie
+  - Goblin
+  - Mushroom
+  - SlimeForest
+  - Tooth
+  - TrashForest
+  - Demon
+  - Eyeball
+  - Fireworm
+  - FlyEye
+  - Imp
+  - Boss1
+  - Boss2
+  - Boss3
+  - SFXSlider
+  - MusicSlider
+  - Checkpoints
+  - spikes
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3924190695
+    locked: 0
+  - name: Tilemap
+    uniqueID: 3642372035
+    locked: 0
+  - name: Player
+    uniqueID: 3106863395
+    locked: 0

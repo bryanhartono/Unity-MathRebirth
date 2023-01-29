@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69358e83575d38e469b1254bf28c8ba5, type: 3}
+  m_Name: SmallPotion
+  m_EditorClassIdentifier: 
+  <IsStackable>k__BackingField: 1
+  <MaxStackSize>k__BackingField: 9999999
+  <Name>k__BackingField: Small Potion
+  <Description>k__BackingField: Restores 10 HP
+  <ItemImage>k__BackingField: {fileID: -494672460, guid: fb4bd6187f6235a43a171c49450d8b49, type: 3}
+  <DefaultParametersList>k__BackingField: []
+  modifiersData:
+  - statModifier: {fileID: 11400000, guid: 356e1b3875765ed42963d2a9aa102d79, type: 2}
+    value: 10
+  <actionSFX>k__BackingField: {fileID: 0}

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7191555589425641893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7191555589425641895}
+  - component: {fileID: 7191555589425641892}
+  - component: {fileID: 7202031339557436733}
+  m_Layer: 0
+  m_Name: CombatManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7191555589425641895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7191555589425641893}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 420.3413, y: 201.9921, z: 3.463597}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7191555589425641892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7191555589425641893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe233a7c3d3dd1b41b84acddeae0f46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  calculatorScript: {fileID: 7202031339557436733}
+  playerHUD: {fileID: 355095959897121200, guid: 55afe78eca4eb6e468bb07433b9cb457, type: 3}
+  playerMov: {fileID: 8632127650947564637, guid: ebaf13f207d822d4181b74707be5656a, type: 3}
+  CMVir: {fileID: 2179513152186379290, guid: e4ac822f693aff6488bf256904893f8e, type: 3}
+  combatUI: {fileID: 626056464259545597, guid: e884c5e3f262ab241bf462a26d51b06a, type: 3}
+  moves: {fileID: 6479059113541547675, guid: dade922f2f423814aa598710d8932483, type: 3}
+  Attack: {fileID: 225765030879716487, guid: 176cce2ad2c61414aa6541368bc5d678, type: 3}
+  Defend: {fileID: 4107010069749774166, guid: fd291ee015154da46893364b90d1408b, type: 3}
+  Special1: {fileID: 7075571219018392135, guid: 3d3a222a841eb244181f99a7e6dd0d96, type: 3}
+  Special2: {fileID: 2863888870800026647, guid: 7c3e510e4fbbc7b41897be5e76c7e0e7, type: 3}
+  questions: {fileID: 8959496510419605880, guid: 7e30d53beef0f2e48afd26af830457f2, type: 3}
+  player: {fileID: 6632216579881130899, guid: cdb765765ff54ba42a1b7b568c032d4f, type: 3}
+  enemy: {fileID: 4661905263343608258, guid: c23418ee7cb1a3042bddda9f83cacfe1, type: 3}
+  soul: {fileID: 2606571588472818493, guid: 17faa2ead15f3014e8358ab9c3557486, type: 3}
+  answered: 0
+  goDown: 0
+  playerAnimator: {fileID: 1039699453, guid: cdb765765ff54ba42a1b7b568c032d4f, type: 3}
+  skeletonAnimator: {fileID: 995746736, guid: c23418ee7cb1a3042bddda9f83cacfe1, type: 3}
+  CalculatorAnimator: {fileID: 7485731599918325657, guid: c115cd7d43eae7f45a86fda1b5bca249, type: 3}
+  state: 0
+  dead: 0
+  soulCurrency: 0
+--- !u!114 &7202031339557436733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7191555589425641893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d6e845620b715d188558716acc67551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  combatManagerScript: {fileID: 7191555589425641892}
+  playerHUD: {fileID: 355095959897121200, guid: 55afe78eca4eb6e468bb07433b9cb457, type: 3}
+  Question: {fileID: 1840819294287209706, guid: 919fdb3b132be0d4b944b812ef0deca6, type: 3}
+  Result: {fileID: 8932219836007324502, guid: 3a574942752860345b403554e4bc7e76, type: 3}
+  PrimaryDigit: {fileID: 924079583770581342, guid: 9467699fbcdf1ef4b91dc02197a8b619, type: 3}
+  SecondaryDigit: {fileID: 8902656642507275719, guid: a2f18a9f49542e047be0be3873c58888, type: 3}
+  SignDigit: {fileID: 6538672871143565427, guid: 128cf3019fe2d324fae3faae1c2968d1, type: 3}
+  TMP_InputField_Answer: {fileID: 7771175312243979080, guid: 1dd694caf37b228448998ce125d75221, type: 3}
+  Correct: {fileID: 1970727952642292911, guid: 7560645104105824bbb09dea915be4eb, type: 3}
+  Wrong: {fileID: 3656422293177406626, guid: 01524bb959ae5e340ba514c157a63906, type: 3}
+  TimesUp: {fileID: 4686404703096517742, guid: 4901dc6bdd5c4974fbf8ffda22d7e99b, type: 3}
+  hourclock: {fileID: 7850364051172842411, guid: f6ba5bde6b798124bbd56f8847d72ebc, type: 3}
+  player: {fileID: 6632216579881130898, guid: cdb765765ff54ba42a1b7b568c032d4f, type: 3}
+  countdownText: {fileID: 6140327416755352067, guid: aa676304b011c7449b7df924335efb23, type: 3}
+  currentTime: 0
+  startTime: 10
+  maxTime: 0
+  onTime: 1
+  answer_correct: 0
+  keepTimer: 1
+  hourclockAnimator: {fileID: 7850364051172842413, guid: f6ba5bde6b798124bbd56f8847d72ebc, type: 3}
